@@ -1,0 +1,588 @@
+0000.000 (0) Opened log file at time: Thu, 22 Apr 2021 22:08:01 +0000 on https://www.wpmelbourne.tk
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.7.1 PHP: 7.4.16 (fpm-fcgi, Linux ip-172-31-30-48 4.19.0-14-cloud-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64) MySQL: 8.0.23 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 7.2M | 2M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 5680.6 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.025 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.047 (0) Set semaphore last lock (fd) time to 2021-04-22 22:08:01
+0000.052 (0) Semaphore lock (fd) complete
+0000.067 (0) Backup run: resumption=0, nonce=bd39a09c0658, file_nonce=bd39a09c0658 begun at=1619129281 (0s ago), job type=backup
+0000.077 (0) Scheduling a resumption (1) after 300 seconds (1619129581) in case this run gets aborted
+0000.140 (0) Checking if we have a zip executable available
+0000.146 (0) Testing: /usr/bin/zip
+0000.155 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.160 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.165 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.169 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.174 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.183 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.188 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.193 (0) Working binary zip found: /usr/bin/zip
+0000.203 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.207 (0) Creation of backups of directories: beginning
+0000.222 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.093 (0) Total entities for the zip file: 2886 directories, 12283 files (0 skipped as non-modified), 174.3 MB
+0002.104 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.110 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.116 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.121 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.128 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.133 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.137 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.143 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.149 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.154 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.159 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7 MB, 12283 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.263 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: size is now: 3.00 MB
+0003.274 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1100 files added (on-disk size: 3040.2 KB)
+0003.282 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1200 files added (on-disk size: 3040.2 KB)
+0003.286 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1300 files added (on-disk size: 3040.2 KB)
+0003.292 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1400 files added (on-disk size: 3040.2 KB)
+0003.298 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1500 files added (on-disk size: 3040.2 KB)
+0003.304 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1600 files added (on-disk size: 3040.2 KB)
+0003.309 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1700 files added (on-disk size: 3040.2 KB)
+0003.315 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1800 files added (on-disk size: 3040.2 KB)
+0003.320 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 1900 files added (on-disk size: 3040.2 KB)
+0003.326 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2000 files added (on-disk size: 3040.2 KB)
+0003.331 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16 MB, 12283 files batched, 1001 (2002) added so far); re-opening (prior size: 3040.2 KB)
+0004.747 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: size is now: 8.90 MB
+0004.759 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2100 files added (on-disk size: 9085.8 KB)
+0004.766 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2200 files added (on-disk size: 9085.8 KB)
+0004.771 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2300 files added (on-disk size: 9085.8 KB)
+0004.776 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2400 files added (on-disk size: 9085.8 KB)
+0004.782 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2500 files added (on-disk size: 9085.8 KB)
+0004.787 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2600 files added (on-disk size: 9085.8 KB)
+0004.793 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2700 files added (on-disk size: 9085.8 KB)
+0004.798 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2800 files added (on-disk size: 9085.8 KB)
+0004.803 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 2900 files added (on-disk size: 9085.8 KB)
+0004.809 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3000 files added (on-disk size: 9085.8 KB)
+0004.814 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.9 MB, 12283 files batched, 1001 (3003) added so far); re-opening (prior size: 9085.8 KB)
+0006.338 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: size is now: 16.10 MB
+0006.352 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3100 files added (on-disk size: 16480.3 KB)
+0006.358 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3200 files added (on-disk size: 16480.3 KB)
+0006.364 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3300 files added (on-disk size: 16480.3 KB)
+0006.370 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3400 files added (on-disk size: 16480.3 KB)
+0006.376 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3500 files added (on-disk size: 16480.3 KB)
+0006.384 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3600 files added (on-disk size: 16480.3 KB)
+0006.390 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3700 files added (on-disk size: 16480.3 KB)
+0006.396 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3800 files added (on-disk size: 16480.3 KB)
+0006.402 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 3900 files added (on-disk size: 16480.3 KB)
+0006.406 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4000 files added (on-disk size: 16480.3 KB)
+0006.412 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.9 MB, 12283 files batched, 1001 (4004) added so far); re-opening (prior size: 16480.3 KB)
+0007.491 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4100 files added (on-disk size: 18084.5 KB)
+0007.498 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4200 files added (on-disk size: 18084.5 KB)
+0007.505 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4300 files added (on-disk size: 18084.5 KB)
+0007.511 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4400 files added (on-disk size: 18084.5 KB)
+0007.518 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4500 files added (on-disk size: 18084.5 KB)
+0007.525 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4600 files added (on-disk size: 18084.5 KB)
+0007.532 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4700 files added (on-disk size: 18084.5 KB)
+0007.539 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4800 files added (on-disk size: 18084.5 KB)
+0007.548 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 4900 files added (on-disk size: 18084.5 KB)
+0007.555 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5000 files added (on-disk size: 18084.5 KB)
+0007.563 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.5 MB, 12283 files batched, 1001 (5005) added so far); re-opening (prior size: 18084.5 KB)
+0008.732 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5100 files added (on-disk size: 19810 KB)
+0008.738 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5200 files added (on-disk size: 19810 KB)
+0008.746 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5300 files added (on-disk size: 19810 KB)
+0008.756 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5400 files added (on-disk size: 19810 KB)
+0008.763 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5500 files added (on-disk size: 19810 KB)
+0008.770 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5600 files added (on-disk size: 19810 KB)
+0008.776 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5700 files added (on-disk size: 19810 KB)
+0008.782 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5800 files added (on-disk size: 19810 KB)
+0008.788 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 5900 files added (on-disk size: 19810 KB)
+0008.794 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6000 files added (on-disk size: 19810 KB)
+0008.800 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.2 MB, 12283 files batched, 1001 (6006) added so far); re-opening (prior size: 19810 KB)
+0010.138 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6100 files added (on-disk size: 23200.3 KB)
+0010.146 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6200 files added (on-disk size: 23200.3 KB)
+0010.151 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6300 files added (on-disk size: 23200.3 KB)
+0010.158 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6400 files added (on-disk size: 23200.3 KB)
+0010.165 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6500 files added (on-disk size: 23200.3 KB)
+0010.170 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6600 files added (on-disk size: 23200.3 KB)
+0010.176 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6700 files added (on-disk size: 23200.3 KB)
+0010.181 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6800 files added (on-disk size: 23200.3 KB)
+0010.188 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 6900 files added (on-disk size: 23200.3 KB)
+0010.195 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7000 files added (on-disk size: 23200.3 KB)
+0010.201 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.9 MB, 12283 files batched, 1001 (7007) added so far); re-opening (prior size: 23200.3 KB)
+0011.512 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: size is now: 30.00 MB
+0011.526 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7100 files added (on-disk size: 30762.9 KB)
+0011.535 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7200 files added (on-disk size: 30762.9 KB)
+0011.542 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7300 files added (on-disk size: 30762.9 KB)
+0011.550 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7400 files added (on-disk size: 30762.9 KB)
+0011.559 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 12283 files batched, 487 (7494) added so far); re-opening (prior size: 30762.9 KB)
+0013.403 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: size is now: 38.10 MB
+0013.416 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 2.1 s, rate: 11931.7 KB/s)
+0013.427 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1457951068878, normalised_time=2.1455460492467, max_time=13.420814990997, data points known=1, old_max_bytes=26214400, new_max_bytes=98385754)
+0013.438 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7500 files added (on-disk size: 39042.9 KB)
+0013.447 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7600 files added (on-disk size: 39042.9 KB)
+0013.456 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7700 files added (on-disk size: 39042.9 KB)
+0013.466 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7800 files added (on-disk size: 39042.9 KB)
+0013.482 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 7900 files added (on-disk size: 39042.9 KB)
+0013.491 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8000 files added (on-disk size: 39042.9 KB)
+0013.500 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8100 files added (on-disk size: 39042.9 KB)
+0013.506 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8200 files added (on-disk size: 39042.9 KB)
+0013.515 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8300 files added (on-disk size: 39042.9 KB)
+0013.523 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8400 files added (on-disk size: 39042.9 KB)
+0013.528 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.4 MB, 12283 files batched, 1001 (8495) added so far); re-opening (prior size: 39042.9 KB)
+0014.732 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8500 files added (on-disk size: 41299.7 KB)
+0014.744 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8600 files added (on-disk size: 41299.7 KB)
+0014.751 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8700 files added (on-disk size: 41299.7 KB)
+0014.757 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8800 files added (on-disk size: 41299.7 KB)
+0014.764 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 8900 files added (on-disk size: 41299.7 KB)
+0014.769 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9000 files added (on-disk size: 41299.7 KB)
+0014.777 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9100 files added (on-disk size: 41299.7 KB)
+0014.786 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9200 files added (on-disk size: 41299.7 KB)
+0014.795 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9300 files added (on-disk size: 41299.7 KB)
+0014.802 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9400 files added (on-disk size: 41299.7 KB)
+0014.808 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.4 MB, 12283 files batched, 1001 (9496) added so far); re-opening (prior size: 41299.7 KB)
+0016.191 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9500 files added (on-disk size: 46433.9 KB)
+0016.197 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9600 files added (on-disk size: 46433.9 KB)
+0016.205 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9700 files added (on-disk size: 46433.9 KB)
+0016.211 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9800 files added (on-disk size: 46433.9 KB)
+0016.217 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 9900 files added (on-disk size: 46433.9 KB)
+0016.224 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10000 files added (on-disk size: 46433.9 KB)
+0016.232 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10100 files added (on-disk size: 46433.9 KB)
+0016.239 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10200 files added (on-disk size: 46433.9 KB)
+0016.245 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10300 files added (on-disk size: 46433.9 KB)
+0016.257 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10400 files added (on-disk size: 46433.9 KB)
+0016.269 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26.8 MB, 12283 files batched, 1001 (10497) added so far); re-opening (prior size: 46433.9 KB)
+0018.617 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10500 files added (on-disk size: 54157.4 KB)
+0018.631 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10600 files added (on-disk size: 54157.4 KB)
+0018.650 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10700 files added (on-disk size: 54157.4 KB)
+0018.657 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10800 files added (on-disk size: 54157.4 KB)
+0018.663 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 10900 files added (on-disk size: 54157.4 KB)
+0018.671 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11000 files added (on-disk size: 54157.4 KB)
+0018.678 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11100 files added (on-disk size: 54157.4 KB)
+0018.684 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11200 files added (on-disk size: 54157.4 KB)
+0018.690 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11300 files added (on-disk size: 54157.4 KB)
+0018.697 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11400 files added (on-disk size: 54157.4 KB)
+0018.703 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.6 MB, 12283 files batched, 1001 (11498) added so far); re-opening (prior size: 54157.4 KB)
+0020.340 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11500 files added (on-disk size: 57815.6 KB)
+0020.349 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11600 files added (on-disk size: 57815.6 KB)
+0020.360 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11700 files added (on-disk size: 57815.6 KB)
+0020.366 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11800 files added (on-disk size: 57815.6 KB)
+0020.373 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 11900 files added (on-disk size: 57815.6 KB)
+0020.380 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 12000 files added (on-disk size: 57815.6 KB)
+0020.388 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 12100 files added (on-disk size: 57815.6 KB)
+0020.396 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip.tmp: 12200 files added (on-disk size: 57815.6 KB)
+0022.153 (0) Created plugins zip (0) - 59417.7 KB in 21.9 s (2710.2 KB/s) (sha1: 3dd36f2ec040afd1522c25e5cc1b2d4f478846d4, sha256: e019b688f3bf8f5505eacb2199d6295e15c96f391e52b963e3440485f4746147)
+0022.167 (0) Beginning creation of dump of themes (split every: 400 MB)
+0022.394 (0) Total entities for the zip file: 366 directories, 942 files (0 skipped as non-modified), 26.1 MB
+0022.402 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0022.409 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0022.415 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0022.421 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0022.427 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0022.437 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0022.442 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0022.451 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0022.459 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0024.506 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip.tmp: size is now: 9.40 MB
+0024.648 (0) Created themes zip (0) - 9605.4 KB in 2.5 s (3878.5 KB/s) (sha1: fa8efd91f79b41c785dc30beda5e9fffedea7f5b, sha256: 4e5cf71b1748a6097e14788e83cf8f47ec79b00da3055b0e85945ba91fa83b50)
+0024.659 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0024.664 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0024.670 (0) finding files: wpvr: adding to list (1)
+0024.676 (0) finding files: 2021: adding to list (2)
+0024.682 (0) finding files: bb-plugin: adding to list (3)
+0024.690 (0) finding files: elementor: adding to list (4)
+0024.694 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0024.733 (0) Total entities for the zip file: 11 directories, 491 files (0 skipped as non-modified), 70.5 MB
+0024.739 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.747 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.753 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.759 (0) Zip: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0026.228 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip.tmp: size is now: 70.50 MB
+0027.143 (0) Created uploads zip (0) - 72191.2 KB in 2.4 s (29546.1 KB/s) (sha1: b87a2015d1fbe3a0fc7ed2feadfd2f8586aafdd1, sha256: fa41b30e63ac118afa7d678e22b347e5f4b54043a9f8d71c69f9ca662feed902)
+0027.157 (0) Beginning backup of other directories found in the content directory (index: 0)
+0027.162 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0027.169 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0027.173 (0) finding files: themes: skipping: this is the themes directory
+0027.179 (0) finding files: uploads: skipping: this is the uploads directory
+0027.184 (0) finding files: languages: adding to list (1)
+0027.189 (0) finding files: login-logo.PNG: adding to list (2)
+0027.194 (0) finding files: index.php: adding to list (3)
+0027.199 (0) finding files: updraft: skipping: this is the updraft directory
+0027.204 (0) finding files: plugins: skipping: this is the plugins directory
+0027.210 (0) finding files: upgrade: skipping: excluded by options
+0027.222 (0) Total entities for the zip file: 3 directories, 2 files (0 skipped as non-modified), 0 MB
+0027.231 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-others.zip.tmp: size is now: 0.00 MB
+0027.257 (0) Created others zip (0) - 12.8 KB in 0 s (310.4 KB/s) (sha1: cf66b358f45fa4de34d923d46edc5f9a15cfeb98, sha256: 17dc44e08d6a782729abcb79da19ee5dcbb232c53b499ff80e6b0b89dbc52ff3)
+0027.279 (0) Saving backup status to database (elements: 8)
+0027.289 (0) Beginning creation of database dump (WordPress DB)
+0027.295 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0027.361 (0) Table wp_options: Total expected rows (approximate): 460
+0027.600 (0) Table wp_options: Rows added in this batch (next record: 1000): 466 (uncompressed bytes in this segment=1896862) in 0.23 seconds
+0027.619 (0) Table wp_options: finishing file(s) (2, 352.3 KB)
+0027.635 (0) Table wp_users: Total expected rows (approximate): 0
+0027.648 (0) Table wp_users: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1352) in 0.01 seconds
+0027.671 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0027.690 (0) Table wp_usermeta: Total expected rows (approximate): 39
+0027.701 (0) Table wp_usermeta: Rows added in this batch (next record: 1000): 39 (uncompressed bytes in this segment=5482) in 0.00 seconds
+0027.720 (0) Table wp_usermeta: finishing file(s) (2, 2.4 KB)
+0027.735 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0027.744 (0) Table wp_commentmeta: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=677) in 0.00 seconds
+0027.761 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0027.776 (0) Table wp_comments: Total expected rows (approximate): 0
+0027.796 (0) Table wp_comments: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2117) in 0.02 seconds
+0027.812 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0027.826 (0) Table wp_links: Total expected rows (approximate): 0
+0027.842 (0) Table wp_links: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0027.858 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0027.873 (0) Table wp_postmeta: Total expected rows (approximate): 7417
+0028.457 (0) Table wp_postmeta: Rows added in this batch (next record: 8000): 7936 (uncompressed bytes in this segment=8171290) in 0.58 seconds
+0028.474 (0) Table wp_postmeta: finishing file(s) (2, 305.6 KB)
+0028.488 (0) Table wp_posts: Total expected rows (approximate): 1322
+0028.703 (0) Table wp_posts: Rows added in this batch (next record: 2000): 1508 (uncompressed bytes in this segment=3466291) in 0.21 seconds
+0028.720 (0) Table wp_posts: finishing file(s) (2, 246.2 KB)
+0028.733 (0) Table wp_term_relationships: Total expected rows (approximate): 48
+0028.750 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 48 (uncompressed bytes in this segment=1378) in 0.01 seconds
+0028.764 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0028.779 (0) Table wp_term_taxonomy: Total expected rows (approximate): 10
+0028.793 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=1277) in 0.01 seconds
+0028.809 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0028.822 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0028.833 (0) Table wp_termmeta: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=650) in 0.01 seconds
+0028.849 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0028.863 (0) Table wp_terms: Total expected rows (approximate): 10
+0028.871 (0) Table wp_terms: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=1080) in 0.00 seconds
+0028.888 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0028.893 (0) Skipping table (lacks our prefix (wp_)): spaces
+0028.920 (0) Table wp_create_map: Total expected rows (approximate): 3
+0028.941 (0) Table wp_create_map: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=4632) in 0.02 seconds
+0028.957 (0) Table wp_create_map: finishing file(s) (2, 1.2 KB)
+0028.977 (0) Table wp_group_map: Total expected rows (approximate): 1
+0028.986 (0) Table wp_group_map: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=806) in 0.00 seconds
+0029.003 (0) Table wp_group_map: finishing file(s) (2, 0.5 KB)
+0029.022 (0) Table wp_map_locations: Total expected rows (approximate): 4
+0029.035 (0) Table wp_map_locations: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=2274) in 0.01 seconds
+0029.053 (0) Table wp_map_locations: finishing file(s) (2, 0.7 KB)
+0029.070 (0) Table wp_mapmarker_api: Total expected rows (approximate): 1
+0029.085 (0) Table wp_mapmarker_api: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=650) in 0.01 seconds
+0029.100 (0) Table wp_mapmarker_api: finishing file(s) (2, 0.4 KB)
+0029.115 (0) Table wp_mapmarker_marker: Total expected rows (approximate): 4
+0029.140 (0) Table wp_mapmarker_marker: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1900) in 0.02 seconds
+0029.157 (0) Table wp_mapmarker_marker: finishing file(s) (2, 0.8 KB)
+0029.176 (0) Table wp_mapmarker_option: Total expected rows (approximate): 2
+0029.196 (0) Table wp_mapmarker_option: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=1622) in 0.02 seconds
+0029.212 (0) Table wp_mapmarker_option: finishing file(s) (2, 0.7 KB)
+0029.227 (0) Table wp_mec_dates: Total expected rows (approximate): 720
+0029.265 (0) Table wp_mec_dates: Rows added in this batch (next record: 1000): 720 (uncompressed bytes in this segment=49599) in 0.03 seconds
+0029.290 (0) Table wp_mec_dates: finishing file(s) (2, 11.4 KB)
+0029.317 (0) Table wp_mec_events: Total expected rows (approximate): 5
+0029.347 (0) Table wp_mec_events: Rows added in this batch (next record: 1000): 5 (uncompressed bytes in this segment=2107) in 0.01 seconds
+0029.382 (0) Table wp_mec_events: finishing file(s) (2, 0.6 KB)
+0029.400 (0) Table wp_mec_occurrences: Total expected rows (approximate): 0
+0029.468 (0) Table wp_mec_occurrences: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=644) in 0.03 seconds
+0029.494 (0) Table wp_mec_occurrences: finishing file(s) (2, 0.4 KB)
+0029.513 (0) Table wp_mec_users: Total expected rows (approximate): 0
+0029.552 (0) Table wp_mec_users: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.01 seconds
+0029.574 (0) Table wp_mec_users: finishing file(s) (2, 0.4 KB)
+0029.595 (0) Table wp_relevanssi: Total expected rows (approximate): 3691
+0029.712 (0) Table wp_relevanssi: Rows added in this batch (next record: 4000): 3691 (uncompressed bytes in this segment=320887) in 0.11 seconds
+0029.728 (0) Table wp_relevanssi: finishing file(s) (2, 30.8 KB)
+0029.744 (0) Table wp_relevanssi_log: Total expected rows (approximate): 0
+0029.762 (0) Table wp_relevanssi_log: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=751) in 0.01 seconds
+0029.779 (0) Table wp_relevanssi_log: finishing file(s) (2, 0.4 KB)
+0029.795 (0) Table wp_relevanssi_stopwords: Total expected rows (approximate): 0
+0029.807 (0) Table wp_relevanssi_stopwords: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=505) in 0.01 seconds
+0029.823 (0) Table wp_relevanssi_stopwords: finishing file(s) (2, 0.3 KB)
+0029.836 (0) Table wp_wpda_csv_uploads: Total expected rows (approximate): 0
+0029.851 (0) Table wp_wpda_csv_uploads: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0029.866 (0) Table wp_wpda_csv_uploads: finishing file(s) (2, 0.3 KB)
+0029.883 (0) Table wp_wpda_csv_uploads_backup_20210422124447: Total expected rows (approximate): 0
+0029.933 (0) Table wp_wpda_csv_uploads_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=710) in 0.05 seconds
+0029.950 (0) Table wp_wpda_csv_uploads_backup_20210422124447: finishing file(s) (2, 0.3 KB)
+0029.965 (0) Table wp_wpda_logging: Total expected rows (approximate): 0
+0029.987 (0) Table wp_wpda_logging: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=539) in 0.02 seconds
+0030.003 (0) Table wp_wpda_logging: finishing file(s) (2, 0.3 KB)
+0030.017 (0) Table wp_wpda_logging_backup_20210422124447: Total expected rows (approximate): 0
+0030.029 (0) Table wp_wpda_logging_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0030.044 (0) Table wp_wpda_logging_backup_20210422124447: finishing file(s) (2, 0.3 KB)
+0030.058 (0) Table wp_wpda_media: Total expected rows (approximate): 0
+0030.068 (0) Table wp_wpda_media: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=670) in 0.01 seconds
+0030.084 (0) Table wp_wpda_media: finishing file(s) (2, 0.4 KB)
+0030.099 (0) Table wp_wpda_media_backup_20210422124447: Total expected rows (approximate): 0
+0030.106 (0) Table wp_wpda_media_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=726) in 0.00 seconds
+0030.122 (0) Table wp_wpda_media_backup_20210422124447: finishing file(s) (2, 0.4 KB)
+0030.136 (0) Table wp_wpda_menus: Total expected rows (approximate): 0
+0030.144 (0) Table wp_wpda_menus: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=591) in 0.00 seconds
+0030.160 (0) Table wp_wpda_menus: finishing file(s) (2, 0.3 KB)
+0030.173 (0) Table wp_wpda_menus_backup_20210422124447: Total expected rows (approximate): 0
+0030.181 (0) Table wp_wpda_menus_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=693) in 0.00 seconds
+0030.196 (0) Table wp_wpda_menus_backup_20210422124447: finishing file(s) (2, 0.3 KB)
+0030.209 (0) Table wp_wpda_project: Total expected rows (approximate): 0
+0030.219 (0) Table wp_wpda_project: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=661) in 0.00 seconds
+0030.235 (0) Table wp_wpda_project: finishing file(s) (2, 0.4 KB)
+0030.257 (0) Table wp_wpda_project_backup_20210422124447: Total expected rows (approximate): 0
+0030.283 (0) Table wp_wpda_project_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=698) in 0.01 seconds
+0030.311 (0) Table wp_wpda_project_backup_20210422124447: finishing file(s) (2, 0.4 KB)
+0030.332 (0) Table wp_wpda_project_page: Total expected rows (approximate): 0
+0030.356 (0) Table wp_wpda_project_page: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1367) in 0.01 seconds
+0030.395 (0) Table wp_wpda_project_page: finishing file(s) (2, 0.5 KB)
+0030.427 (0) Table wp_wpda_project_page_backup_20210422124447: Total expected rows (approximate): 0
+0030.450 (0) Table wp_wpda_project_page_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1403) in 0.01 seconds
+0030.482 (0) Table wp_wpda_project_page_backup_20210422124447: finishing file(s) (2, 0.5 KB)
+0030.509 (0) Table wp_wpda_project_table: Total expected rows (approximate): 0
+0030.525 (0) Table wp_wpda_project_table: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=626) in 0.01 seconds
+0030.542 (0) Table wp_wpda_project_table: finishing file(s) (2, 0.3 KB)
+0030.556 (0) Table wp_wpda_project_table_backup_20210422124447: Total expected rows (approximate): 0
+0030.565 (0) Table wp_wpda_project_table_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=683) in 0.00 seconds
+0030.582 (0) Table wp_wpda_project_table_backup_20210422124447: finishing file(s) (2, 0.3 KB)
+0030.596 (0) Table wp_wpda_publisher: Total expected rows (approximate): 0
+0030.610 (0) Table wp_wpda_publisher: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1479) in 0.01 seconds
+0030.626 (0) Table wp_wpda_publisher: finishing file(s) (2, 0.6 KB)
+0030.640 (0) Table wp_wpda_publisher_backup_20210422124447: Total expected rows (approximate): 0
+0030.649 (0) Table wp_wpda_publisher_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1544) in 0.00 seconds
+0030.664 (0) Table wp_wpda_publisher_backup_20210422124447: finishing file(s) (2, 0.6 KB)
+0030.679 (0) Table wp_wpda_table_design: Total expected rows (approximate): 0
+0030.690 (0) Table wp_wpda_table_design: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=691) in 0.01 seconds
+0030.707 (0) Table wp_wpda_table_design: finishing file(s) (2, 0.4 KB)
+0030.721 (0) Table wp_wpda_table_design_backup_20210422124447: Total expected rows (approximate): 0
+0030.730 (0) Table wp_wpda_table_design_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=769) in 0.00 seconds
+0030.746 (0) Table wp_wpda_table_design_backup_20210422124447: finishing file(s) (2, 0.4 KB)
+0030.760 (0) Table wp_wpda_table_settings: Total expected rows (approximate): 0
+0030.772 (0) Table wp_wpda_table_settings: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=549) in 0.01 seconds
+0030.789 (0) Table wp_wpda_table_settings: finishing file(s) (2, 0.3 KB)
+0030.802 (0) Table wp_wpda_table_settings_backup_20210422124447: Total expected rows (approximate): 0
+0030.809 (0) Table wp_wpda_table_settings_backup_20210422124447: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0030.825 (0) Table wp_wpda_table_settings_backup_20210422124447: finishing file(s) (2, 0.3 KB)
+0030.839 (0) Table wp_wpdatacharts: Total expected rows (approximate): 0
+0030.853 (0) Table wp_wpdatacharts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=573) in 0.01 seconds
+0030.867 (0) Table wp_wpdatacharts: finishing file(s) (2, 0.3 KB)
+0030.881 (0) Table wp_wpdatatables: Total expected rows (approximate): 1
+0030.905 (0) Table wp_wpdatatables: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=2341) in 0.02 seconds
+0030.920 (0) Table wp_wpdatatables: finishing file(s) (2, 0.9 KB)
+0030.933 (0) Table wp_wpdatatables_columns: Total expected rows (approximate): 6
+0030.957 (0) Table wp_wpdatatables_columns: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=3911) in 0.02 seconds
+0030.971 (0) Table wp_wpdatatables_columns: finishing file(s) (2, 0.9 KB)
+0030.986 (0) Table wp_wpdatatables_rows: Total expected rows (approximate): 0
+0030.995 (0) Table wp_wpdatatables_rows: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=461) in 0.01 seconds
+0031.012 (0) Table wp_wpdatatables_rows: finishing file(s) (2, 0.3 KB)
+0031.028 (0) Table wp_wpgmza: Total expected rows (approximate): 1
+0031.053 (0) Table wp_wpgmza: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=1615) in 0.02 seconds
+0031.069 (0) Table wp_wpgmza: finishing file(s) (2, 0.6 KB)
+0031.084 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0031.098 (0) Table wp_wpgmza_circles: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=654) in 0.01 seconds
+0031.114 (0) Table wp_wpgmza_circles: finishing file(s) (2, 0.4 KB)
+0031.128 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 1
+0031.149 (0) Table wp_wpgmza_maps: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=4956) in 0.02 seconds
+0031.167 (0) Table wp_wpgmza_maps: finishing file(s) (2, 1.6 KB)
+0031.183 (0) Table wp_wpgmza_nominatim_geocode_cache: Total expected rows (approximate): 6
+0031.199 (0) Table wp_wpgmza_nominatim_geocode_cache: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=28419) in 0.01 seconds
+0031.216 (0) Table wp_wpgmza_nominatim_geocode_cache: finishing file(s) (2, 4.5 KB)
+0031.232 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0031.258 (0) Table wp_wpgmza_polygon: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1300) in 0.02 seconds
+0031.277 (0) Table wp_wpgmza_polygon: finishing file(s) (2, 0.4 KB)
+0031.292 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0031.325 (0) Table wp_wpgmza_polylines: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.02 seconds
+0031.348 (0) Table wp_wpgmza_polylines: finishing file(s) (2, 0.4 KB)
+0031.367 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0031.381 (0) Table wp_wpgmza_rectangles: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=674) in 0.01 seconds
+0031.415 (0) Table wp_wpgmza_rectangles: finishing file(s) (2, 0.4 KB)
+0031.420 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_options.table.tmpr1001.gz (1/57): adding to final database dump
+0031.633 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_options.table.gz (2/57): adding to final database dump
+0031.639 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_users.table.tmpr1001.gz (3/57): adding to final database dump
+0031.643 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_users.table.gz (4/57): adding to final database dump
+0031.648 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_usermeta.table.tmpr1001.gz (5/57): adding to final database dump
+0031.654 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_usermeta.table.gz (6/57): adding to final database dump
+0031.658 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_commentmeta.table.tmpr1.gz (7/57): adding to final database dump
+0031.663 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_commentmeta.table.gz (8/57): adding to final database dump
+0031.667 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_comments.table.tmpr1001.gz (9/57): adding to final database dump
+0031.672 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_comments.table.gz (10/57): adding to final database dump
+0031.680 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_links.table.tmpr1.gz (11/57): adding to final database dump
+0031.686 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_links.table.gz (12/57): adding to final database dump
+0031.691 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_postmeta.table.tmpr8001.gz (13/57): adding to final database dump
+0032.018 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_postmeta.table.gz (14/57): adding to final database dump
+0032.024 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_posts.table.tmpr2001.gz (15/57): adding to final database dump
+0032.182 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_posts.table.gz (16/57): adding to final database dump
+0032.187 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_term_relationships.table.tmpr100001.gz (17/57): adding to final database dump
+0032.193 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_term_relationships.table.gz (18/57): adding to final database dump
+0032.198 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_term_taxonomy.table.tmpr1001.gz (19/57): adding to final database dump
+0032.203 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_term_taxonomy.table.gz (20/57): adding to final database dump
+0032.209 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_termmeta.table.tmpr1.gz (21/57): adding to final database dump
+0032.214 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_termmeta.table.gz (22/57): adding to final database dump
+0032.220 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_terms.table.tmpr1001.gz (23/57): adding to final database dump
+0032.224 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_terms.table.gz (24/57): adding to final database dump
+0032.237 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_create_map.table.tmpr1001.gz (25/57): adding to final database dump
+0032.246 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_create_map.table.gz (26/57): adding to final database dump
+0032.254 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_group_map.table.tmpr1001.gz (27/57): adding to final database dump
+0032.259 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_group_map.table.gz (28/57): adding to final database dump
+0032.264 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_map_locations.table.tmpr1001.gz (29/57): adding to final database dump
+0032.269 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_map_locations.table.gz (30/57): adding to final database dump
+0032.274 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mapmarker_api.table.tmpr1001.gz (31/57): adding to final database dump
+0032.279 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mapmarker_api.table.gz (32/57): adding to final database dump
+0032.284 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mapmarker_marker.table.tmpr1001.gz (33/57): adding to final database dump
+0032.289 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mapmarker_marker.table.gz (34/57): adding to final database dump
+0032.293 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mapmarker_option.table.tmpr1001.gz (35/57): adding to final database dump
+0032.298 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mapmarker_option.table.gz (36/57): adding to final database dump
+0032.303 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_dates.table.tmpr1001.gz (37/57): adding to final database dump
+0032.316 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_dates.table.gz (38/57): adding to final database dump
+0032.321 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_events.table.tmpr1001.gz (39/57): adding to final database dump
+0032.326 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_events.table.gz (40/57): adding to final database dump
+0032.331 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_occurrences.table.tmpr1.gz (41/57): adding to final database dump
+0032.336 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_occurrences.table.gz (42/57): adding to final database dump
+0032.342 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_users.table.tmpr1.gz (43/57): adding to final database dump
+0032.348 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_mec_users.table.gz (44/57): adding to final database dump
+0032.352 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_relevanssi.table.tmpr4001.gz (45/57): adding to final database dump
+0032.375 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_relevanssi.table.gz (46/57): adding to final database dump
+0032.380 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_relevanssi_log.table.tmpr1.gz (47/57): adding to final database dump
+0032.385 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_relevanssi_log.table.gz (48/57): adding to final database dump
+0032.390 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_relevanssi_stopwords.table.tmpr1.gz (49/57): adding to final database dump
+0032.393 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_relevanssi_stopwords.table.gz (50/57): adding to final database dump
+0032.401 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_csv_uploads.table.tmpr1.gz (51/57): adding to final database dump
+0032.406 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_csv_uploads.table.gz (52/57): adding to final database dump
+0032.410 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_csv_uploads_backup_20210422124447.table.tmpr1.gz (53/57): adding to final database dump
+0032.416 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_csv_uploads_backup_20210422124447.table.gz (54/57): adding to final database dump
+0032.421 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_logging.table.tmpr1.gz (55/57): adding to final database dump
+0032.426 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_logging.table.gz (56/57): adding to final database dump
+0032.431 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_logging_backup_20210422124447.table.tmpr1.gz (57/57): adding to final database dump
+0032.435 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_logging_backup_20210422124447.table.gz (58/57): adding to final database dump
+0032.441 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_media.table.tmpr1.gz (59/57): adding to final database dump
+0032.447 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_media.table.gz (60/57): adding to final database dump
+0032.452 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_media_backup_20210422124447.table.tmpr1.gz (61/57): adding to final database dump
+0032.458 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_media_backup_20210422124447.table.gz (62/57): adding to final database dump
+0032.462 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_menus.table.tmpr1.gz (63/57): adding to final database dump
+0032.467 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_menus.table.gz (64/57): adding to final database dump
+0032.473 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_menus_backup_20210422124447.table.tmpr1.gz (65/57): adding to final database dump
+0032.478 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_menus_backup_20210422124447.table.gz (66/57): adding to final database dump
+0032.484 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project.table.tmpr1.gz (67/57): adding to final database dump
+0032.488 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project.table.gz (68/57): adding to final database dump
+0032.493 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_backup_20210422124447.table.tmpr1.gz (69/57): adding to final database dump
+0032.498 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_backup_20210422124447.table.gz (70/57): adding to final database dump
+0032.502 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_page.table.tmpr1.gz (71/57): adding to final database dump
+0032.507 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_page.table.gz (72/57): adding to final database dump
+0032.512 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_page_backup_20210422124447.table.tmpr1.gz (73/57): adding to final database dump
+0032.517 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_page_backup_20210422124447.table.gz (74/57): adding to final database dump
+0032.522 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_table.table.tmpr1.gz (75/57): adding to final database dump
+0032.527 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_table.table.gz (76/57): adding to final database dump
+0032.532 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_table_backup_20210422124447.table.tmpr1.gz (77/57): adding to final database dump
+0032.537 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_project_table_backup_20210422124447.table.gz (78/57): adding to final database dump
+0032.542 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_publisher.table.tmpr1.gz (79/57): adding to final database dump
+0032.546 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_publisher.table.gz (80/57): adding to final database dump
+0032.551 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_publisher_backup_20210422124447.table.tmpr1.gz (81/57): adding to final database dump
+0032.556 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_publisher_backup_20210422124447.table.gz (82/57): adding to final database dump
+0032.561 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_design.table.tmpr1.gz (83/57): adding to final database dump
+0032.566 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_design.table.gz (84/57): adding to final database dump
+0032.570 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_design_backup_20210422124447.table.tmpr1.gz (85/57): adding to final database dump
+0032.575 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_design_backup_20210422124447.table.gz (86/57): adding to final database dump
+0032.580 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_settings.table.tmpr1.gz (87/57): adding to final database dump
+0032.584 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_settings.table.gz (88/57): adding to final database dump
+0032.589 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_settings_backup_20210422124447.table.tmpr1.gz (89/57): adding to final database dump
+0032.593 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpda_table_settings_backup_20210422124447.table.gz (90/57): adding to final database dump
+0032.598 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatacharts.table.tmpr1.gz (91/57): adding to final database dump
+0032.603 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatacharts.table.gz (92/57): adding to final database dump
+0032.607 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatatables.table.tmpr1001.gz (93/57): adding to final database dump
+0032.612 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatatables.table.gz (94/57): adding to final database dump
+0032.617 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatatables_columns.table.tmpr1001.gz (95/57): adding to final database dump
+0032.622 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatatables_columns.table.gz (96/57): adding to final database dump
+0032.626 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatatables_rows.table.tmpr1.gz (97/57): adding to final database dump
+0032.631 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpdatatables_rows.table.gz (98/57): adding to final database dump
+0032.637 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza.table.tmpr1001.gz (99/57): adding to final database dump
+0032.648 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza.table.gz (100/57): adding to final database dump
+0032.653 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_circles.table.tmpr1.gz (101/57): adding to final database dump
+0032.658 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_circles.table.gz (102/57): adding to final database dump
+0032.663 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_maps.table.tmpr1001.gz (103/57): adding to final database dump
+0032.668 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_maps.table.gz (104/57): adding to final database dump
+0032.673 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_nominatim_geocode_cache.table.tmpr1001.gz (105/57): adding to final database dump
+0032.682 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_nominatim_geocode_cache.table.gz (106/57): adding to final database dump
+0032.686 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_polygon.table.tmpr1.gz (107/57): adding to final database dump
+0032.691 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_polygon.table.gz (108/57): adding to final database dump
+0032.697 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_polylines.table.tmpr1.gz (109/57): adding to final database dump
+0032.702 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_polylines.table.gz (110/57): adding to final database dump
+0032.708 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_rectangles.table.tmpr1.gz (111/57): adding to final database dump
+0032.713 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db-table-wp_wpgmza_rectangles.table.gz (112/57): adding to final database dump
+0032.745 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz: finished writing out complete database file (936 KB)
+0032.782 (0) Total database tables backed up: 56 (backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz, size: 987579, sha1: 1d679a92b2f3067d9dfc9361525a0dc3a9ccbc07, sha256: 4edd1d296667d8063dc2b59fbbb30d3ab14a035d76b1d9c937841058edaf1372)
+0032.803 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0032.808 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0032.812 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.817 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-others.zip: others: This file has not yet been successfully uploaded: will queue
+0032.821 (0) backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz: db: This file has not yet been successfully uploaded: will queue
+0032.825 (0) Saving backup history. Total backup size: 138.9 MB
+0032.837 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0032.854 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0032.860 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-529a557785367e9f0f8023b3f249407b)
+0035.130 (0) Google Drive: quota usage: used=373.2 MB, total=10486133.2 MB, available=10485760 MB
+0035.135 (0) Google Drive: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip: Attempting to upload to Google Drive (into folder id: 1dfMoyzgFnfDmMfoMa2yHbkY-VBXM1EVx)
+0035.740 (0) Googledrive chunked upload: 1.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 8.3 / 14)
+0036.084 (0) Googledrive chunked upload: 5.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 8.3 / 14)
+0036.463 (0) Googledrive chunked upload: 12.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 8.3 / 14)
+0037.069 (0) Googledrive chunked upload: 25.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 8.3 / 14)
+0037.881 (0) Googledrive chunked upload: 53.4 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 8.3 / 14)
+0040.123 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0040.139 (0) Google Drive: OK: Archive backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip uploaded in 5 seconds
+0040.143 (0) Recording as successfully uploaded: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip
+0040.170 (0) Deleting local file: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-plugins.zip: OK
+0040.376 (0) Google Drive: quota usage: used=431.2 MB, total=10486191.2 MB, available=10485760 MB
+0040.381 (0) Google Drive: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip: Attempting to upload to Google Drive (into folder id: 1dfMoyzgFnfDmMfoMa2yHbkY-VBXM1EVx)
+0040.973 (0) Googledrive chunked upload: 10.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 8.3 / 14)
+0041.359 (0) Googledrive chunked upload: 32 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 8.3 / 14)
+0041.730 (0) Googledrive chunked upload: 74.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 8.3 / 14)
+0043.152 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0043.166 (0) Google Drive: OK: Archive backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip uploaded in 2.78 seconds
+0043.171 (0) Recording as successfully uploaded: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip
+0043.181 (0) Deleting local file: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-themes.zip: OK
+0043.352 (0) Google Drive: quota usage: used=440.6 MB, total=10486200.6 MB, available=10485760 MB
+0043.357 (0) Google Drive: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip: Attempting to upload to Google Drive (into folder id: 1dfMoyzgFnfDmMfoMa2yHbkY-VBXM1EVx)
+0043.921 (0) Googledrive chunked upload: 1.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 8.3 / 14)
+0044.303 (0) Googledrive chunked upload: 4.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 8.3 / 14)
+0044.664 (0) Googledrive chunked upload: 9.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 8.3 / 14)
+0045.341 (0) Googledrive chunked upload: 21.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 8.3 / 14)
+0046.615 (0) Googledrive chunked upload: 44 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 8.3 / 14)
+0048.878 (0) Googledrive chunked upload: 89.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 8.3 / 14)
+0050.519 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0050.536 (0) Google Drive: OK: Archive backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip uploaded in 7.18 seconds
+0050.541 (0) Recording as successfully uploaded: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip
+0050.560 (0) Deleting local file: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-uploads.zip: OK
+0050.769 (0) Google Drive: quota usage: used=511.1 MB, total=10486271.1 MB, available=10485760 MB
+0050.774 (0) Google Drive: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-others.zip: Attempting to upload to Google Drive (into folder id: 1dfMoyzgFnfDmMfoMa2yHbkY-VBXM1EVx)
+0052.007 (0) Googledrive chunked upload: 100 % uploaded
+0052.023 (0) Google Drive: OK: Archive backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-others.zip uploaded in 1.24 seconds
+0052.028 (0) Recording as successfully uploaded: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-others.zip
+0052.038 (0) Deleting local file: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-others.zip: OK
+0052.218 (0) Google Drive: quota usage: used=511.1 MB, total=10486271.1 MB, available=10485760 MB
+0052.223 (0) Google Drive: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz: Attempting to upload to Google Drive (into folder id: 1dfMoyzgFnfDmMfoMa2yHbkY-VBXM1EVx)
+0053.420 (0) Googledrive chunked upload: 100 % uploaded
+0053.434 (0) Google Drive: OK: Archive backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz uploaded in 1.21 seconds
+0053.439 (0) Recording as successfully uploaded: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz
+0053.448 (0) Deleting local file: backup_2021-04-22-2208_Welcome_Melbourne_Professionals_bd39a09c0658-db.gz: OK
+0053.463 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0053.468 (0) Number of backup sets in history: 3; groups (db): 1
+0053.473 (0) Examining (for databases) backup set with group_id=0, nonce=bd39a09c0658, datestamp=1619129281 (Apr 22 2021 22:08:01)
+0053.477 (0) This backup set is the backup set just made, so will not be deleted.
+0053.477 (0) Examining (for databases) backup set with group_id=0, nonce=b23c6aa38188, datestamp=1617282316 (Apr 01 2021 13:05:16)
+0053.477 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0053.481 (0) Examining (for databases) backup set with group_id=0, nonce=2c9ea5261179, datestamp=1617201085 (Mar 31 2021 14:31:25)
+0053.481 (0) 1617201085: db: this set includes a database (backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-db.gz); db count is now 2
+0053.481 (0) 1617201085: db: over retain limit (2); will delete this database
+0053.481 (0) Delete file: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-db.gz, service=googledrive
+0054.442 (0) Google Drive: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-db.gz: Deletion successful
+0054.453 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0054.457 (0) Number of backup sets in history: 3; groups (files): 1
+0054.462 (0) Examining (for files) backup set with nonce=bd39a09c0658, datestamp=1619129281 (Apr 22 2021 22:08:01)
+0054.462 (0) This backup set is the backup set just made, so will not be deleted.
+0054.467 (0) This backup set is the backup set just made, so will not be deleted.
+0054.467 (0) This backup set is the backup set just made, so will not be deleted.
+0054.467 (0) This backup set is the backup set just made, so will not be deleted.
+0054.467 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0054.471 (0) Examining (for files) backup set with nonce=b23c6aa38188, datestamp=1617282316 (Apr 01 2021 13:05:16)
+0054.471 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0054.471 (0) Examining (for files) backup set with nonce=2c9ea5261179, datestamp=1617201085 (Mar 31 2021 14:31:25)
+0054.472 (0) plugins: over retain limit (2); will delete this file entity
+0054.472 (0) themes: over retain limit (2); will delete this file entity
+0054.472 (0) uploads: over retain limit (2); will delete this file entity
+0054.472 (0) others: over retain limit (2); will delete this file entity
+0054.472 (0) Delete file: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-plugins.zip, service=googledrive
+0054.476 (0) Delete file: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-themes.zip, service=googledrive
+0054.481 (0) Delete file: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-uploads.zip, service=googledrive
+0054.485 (0) Delete file: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-others.zip, service=googledrive
+0055.423 (0) Google Drive: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-others.zip: Deletion successful
+0055.869 (0) Google Drive: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-uploads.zip: Deletion successful
+0056.612 (0) Google Drive: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-themes.zip: Deletion successful
+0056.988 (0) Google Drive: backup_2021-03-31-1431_Welcome_Melbourne_Professionals_2c9ea5261179-plugins.zip: Deletion successful
+0057.002 (0) This backup set is now empty; will remove from history
+0057.007 (0) Deleting log file (log.2c9ea5261179.txt)
+0057.014 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0057.034 (0) Resume backup (bd39a09c0658, 0): finish run
+0057.056 (0) Decremented the semaphore (fd) by 1
+0057.071 (0) Semaphore (fd) unlocked
+0057.076 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0057.096 (0) No email will/can be sent - the user has not configured an email address.
+0057.101 (0) The backup apparently succeeded and is now complete
